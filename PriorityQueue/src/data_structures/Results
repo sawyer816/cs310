@@ -1,0 +1,100 @@
+-------------------------------------------
+---------- orderedArrayPQ TESTS -----------
+-------------------------------------------
+------ TESTING: insert(E obj) -----
+Expected: 1 2 3 4 8 10 12 21 22 23
+Returned: 1 2 3 4 8 10 12 21 22 23
+------ TESTING: isEmpty() -----
+
+------ TESTING: isFull() -----
+
+------ TESTING: size() -----
+Expected size: 10
+Returned size: 10
+
+------ TESTING: peek() -----
+------ TESTING: remove(E obj) -----
+Values expected to be removed in this order
+Expected: 1 2 3 4 8 10 12 21 22 23
+Returned: 1 2 3 4 8 10 12 21 22 23
+------ TESTING: delete(E obj) -----
+Array: 0 1 0 1 0 1 0 1 0 1
+Applying delete(0)
+Expected: 1 1 1 1 1
+Returned: 1 1 1 1 1
+------ TESTING: clear() -----
+Expected size: 0
+Returned size: 0
+------ TESTING: default constructor -----
+Antalya ,BangKok ,Delhi ,Dubai ,Hong Kong ,Istanbul ,Kuala Lumpur ,London ,Macau ,Mecca ,Mumbai ,New York ,Paris ,Pattaya ,Phuket ,Rome ,Shenzhen ,Singapore ,Taipei ,Tokyo ,
+Performing: contains("Tokyo")
+Performing: remove()
+-------------------------------------------
+--------- UnorderedArrayPQ TESTS ----------
+-------------------------------------------
+------ TESTING: insert(E obj) -----
+Expected: 1 23 8 12 3 4 21 22 10 2
+Returned: 1 23 8 12 3 4 21 22 10 2
+------ TESTING: isEmpty() -----
+
+------ TESTING: isFull() -----
+
+------ TESTING: size() -----
+Expected size: 10
+Returned size: 10
+
+------ TESTING: peek() -----
+
+------ TESTING: remove() -----
+Values expected to be removed in this order
+Expected: 1 2 3 4 8 10 12 21 22 23
+Returned: 1 2 3 4 8 10 12 21 22 23
+------ TESTING: delete(E obj) -----
+Array: 0 1 0 1 0 1 0 1 0 1
+Applying delete(0)
+Expected: 1 1 1 1 1
+Returned: 1 1 1 1 1
+------ TESTING: clear() -----
+Expected size: 0
+Returned size: 0
+------ TESTING: default constructor -----
+Hong Kong ,BangKok ,London ,Macau ,Singapore ,Paris ,Dubai ,New York ,Kuala Lumpur ,Istanbul ,Delhi ,Antalya ,Shenzhen ,Mumbai ,Phuket ,Rome ,Tokyo ,Pattaya ,Taipei ,Mecca ,
+Performing: contains("Tokyo")
+Performing remove()
+-------------------------------------------
+----------- BinaryHeapPQ TESTS ------------
+-------------------------------------------
+
+------ TESTING: insert(E obj) -----
+Inserting from left to right: 1 23 8 12 3 4 21 22 10 2
+Expected: 1 2 4 10 3 8 21 23 22 12
+Returned: 1 2 4 10 3 8 21 23 22 12
+------ TESTING: isEmpty() -----
+
+------ TESTING: isFull() -----
+
+------ TESTING: size() -----
+Expected size: 10
+Returned size: 10
+
+------ TESTING: peek() -----
+------ TESTING: remove(E obj) -----
+Expecting: 1 2 3 4 8 10 12 21 22 23
+------ TESTING: delete(E obj) -----
+Inserting from left to right: 1 23 8 12 3 4 21 22 10 2
+Applying delete(3)
+
+Applying delete(12)
+
+Applying delete(1)
+Returned: 2 10 4 23 22 8 21
+------ TESTING: clear() -----
+Expected size: 0
+Returned size: 0
+------ TESTING: default constructor -----
+Antalya ,Delhi ,BangKok ,Kuala Lumpur ,Hong Kong ,Dubai ,London ,New York ,Macau ,Mecca ,Istanbul ,Paris ,Shenzhen ,Mumbai ,Phuket ,Rome ,Tokyo ,Pattaya ,Taipei ,Singapore ,
+Performing: contains("Tokyo")
+Performing remove()
+------------ TESTING COMPLETE -------------
+
+Process finished with exit code 0
